@@ -40,7 +40,9 @@ public class View {
     public void showDesignPatternExemple(DesignPattern dp){
         this.showDividingLine();
         System.out.println(" Padrão: " + dp.getName());
+        System.out.println(" Categoria: " + dp.getCategoria());
         System.out.println(" Descrição: " + dp.getDescription());
+        System.out.print("\n");
         System.out.println(" Exemplo: ");
         dp.runExample();
     }

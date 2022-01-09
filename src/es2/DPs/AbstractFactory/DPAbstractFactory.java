@@ -1,5 +1,6 @@
 package es2.DPs.AbstractFactory;
 
+import es2.DPs.Categorias;
 import es2.DPs.DesignPattern;
 
 public class DPAbstractFactory implements DesignPattern {
@@ -9,12 +10,17 @@ public class DPAbstractFactory implements DesignPattern {
 	}
 
 	@Override
+	public String getCategoria() {
+		return Categorias.CREATIONAL;
+	}
+
+	@Override
 	public String getDescription() {
 		return "A criação de objetos por meio de uma Fábrica (Factory) é uma boa prática \n" +
-				"para se criar objetos de forma dinâmica. Para isso. o padrão Abstract Factory \n" +
-				"serve como uma super fábrica, servindo para criar outras fábricas. Assim, uma" +
-				"interface define um padrão a ser gerado e a relação entre os objetos, mas " +
-				"sem especificar de forma explícita as classes usadas.";
+				" para se criar objetos de forma dinâmica. Para isso. o padrão Abstract Factory \n" +
+				" serve como uma super fábrica, servindo para criar outras fábricas. Assim, uma \n" +
+				" interface define um padrão a ser gerado e a relação entre os objetos, mas \n" +
+				" sem especificar de forma explícita as classes usadas.";
 	}
 
 	@Override

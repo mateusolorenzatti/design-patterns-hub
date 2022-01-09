@@ -2,6 +2,7 @@ package es2.CLI;
 
 import es2.DPs.AbstractFactory.DPAbstractFactory;
 import es2.DPs.Bridge.DPBrigde;
+import es2.DPs.Builder.DPBuilder;
 import es2.DPs.DesignPattern;
 
 import java.io.IOException;
@@ -19,6 +20,7 @@ public class Controller {
     public void initDpsList(){
         dpsList.add(new DPAbstractFactory());
         dpsList.add(new DPBrigde());
+        dpsList.add(new DPBuilder());
     }
 
     public void runCLI(){
