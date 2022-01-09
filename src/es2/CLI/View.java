@@ -30,14 +30,14 @@ public class View {
         opt = s.nextInt();
         s.nextLine();
 
-        return  opt;
+        return opt;
     }
 
-    public void showWarning(String warning){
-        System.out.println(" [ATENCAO]: " + warning );
+    public void showWarning(String warning) {
+        System.out.println(" [ATENCAO]: " + warning);
     }
 
-    public void showDesignPatternExemple(DesignPattern dp){
+    public void showDesignPatternExemple(DesignPattern dp) {
         this.showDividingLine();
         System.out.println(" >> Padrão: " + dp.getName());
         System.out.println(" >> Categoria: " + dp.getCategoria());
@@ -49,12 +49,27 @@ public class View {
     }
 
     public void showOpeningDialog() {
+        this.showDividingLine();
+        System.out.println("                   >> Design Patterns Hub << ");
+        System.out.println("                   _             _           _");
+        System.out.println("                __| |_ _        | |__  _   _| |__");
+        System.out.println("               / _` | '_ \\ _____| '_ \\| | | | '_ \\ ");
+        System.out.println("              | (_| | |_) |_____| | | | |_| | |_) |");
+        System.out.println("               \\__,_| .__/      |_| |_|\\__,_|_.__/");
+        System.out.println("                    |_|");
+        System.out.println("");
+        System.out.println(" >> Autor: Mateus Orlandin Lorenzatti");
+        System.out.println(" >> Source: github.com/mateusolorenzatti/design-patterns-hub");
     }
 
     public void showClosingDialog() {
+        this.showDividingLine();
+        System.out.println(" >> Opção [0] escolhida, saindo do programa...");
+        System.out.println(" >> Obrigado por utilizar!");
+        System.out.println(" >> Esperamos que volte! ");
     }
 
-    private void showDividingLine(){
+    private void showDividingLine() {
         System.out.println(" -------------------------------------------------------------- ");
     }
 
