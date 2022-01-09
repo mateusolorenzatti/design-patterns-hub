@@ -1,9 +1,9 @@
-package es2.DPs.AbstractFactory;
+package es2.DPs.AbstractFactory.src;
 
 public class StreetFactory extends AbstractFactory {
 
 	@Override
-	Veiculo getVeiculo(String modeloVeiculo) {
+	public Veiculo getVeiculo(String modeloVeiculo) {
 		if (modeloVeiculo.equalsIgnoreCase("X")) {
 			return new XStreet();
 		} else if (modeloVeiculo.equalsIgnoreCase("Y")) {
