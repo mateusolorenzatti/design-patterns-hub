@@ -24,7 +24,7 @@ public class View {
             System.out.println(" [" + item + "] - " + dp.getName());
             item++;
         }
-        System.out.println(" [0] - Sair");
+        System.out.println("\n [0] - Sair");
         System.out.println(" Sua opção: ");
 
         opt = s.nextInt();
@@ -39,12 +39,13 @@ public class View {
 
     public void showDesignPatternExemple(DesignPattern dp){
         this.showDividingLine();
-        System.out.println(" Padrão: " + dp.getName());
-        System.out.println(" Categoria: " + dp.getCategoria());
-        System.out.println(" Descrição: " + dp.getDescription());
+        System.out.println(" >> Padrão: " + dp.getName());
+        System.out.println(" >> Categoria: " + dp.getCategoria());
+        System.out.println(" >> Descrição: " + dp.getDescription());
         System.out.print("\n");
-        System.out.println(" Exemplo: ");
+        System.out.println(" >> Início do Exemplo \n");
         dp.runExample();
+        System.out.println("\n >> Fim do Exemplo ");
     }
 
     public void showOpeningDialog() {
