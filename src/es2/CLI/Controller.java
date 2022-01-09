@@ -6,6 +6,7 @@ import es2.DPs.Builder.DPBuilder;
 import es2.DPs.ChainOfResponsability.DPChainOfResponsability;
 import es2.DPs.Composite.DPComposite;
 import es2.DPs.DesignPattern;
+import es2.DPs.Facade.DPFacade;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -25,6 +26,7 @@ public class Controller {
         dpsList.add(new DPBuilder());
         dpsList.add(new DPChainOfResponsability());
         dpsList.add(new DPComposite());
+        dpsList.add(new DPFacade());
     }
 
     public void runCLI(){
