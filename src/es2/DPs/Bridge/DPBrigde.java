@@ -15,7 +15,12 @@ public class DPBrigde implements DesignPattern {
 
     @Override
     public String getDescription() {
-        return " - Explicacao Breve - ";
+        return "O padrão Bridge é útil para separarmos a parte da abstração da \n" +
+                "implementação. Assim, a abstração se encarrega de definir os atributos \n" +
+                "ações, ou recursos enquanto a implementação será chamada para realmente \n" +
+                "realizar a ação desejada. A junção entre as duas partes é a ponte (bridge) \n" +
+                "e pode ser movida de forma desacoplada graças ao uso da interface na \n" +
+                "implementação.";
     }
 
     @Override

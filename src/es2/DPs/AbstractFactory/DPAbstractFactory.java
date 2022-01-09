@@ -10,7 +10,11 @@ public class DPAbstractFactory implements DesignPattern {
 
 	@Override
 	public String getDescription() {
-		return " - Breve Explicação - ";
+		return "A criação de objetos por meio de uma Fábrica (Factory) é uma boa prática \n" +
+				"para se criar objetos de forma dinâmica. Para isso. o padrão Abstract Factory \n" +
+				"serve como uma super fábrica, servindo para criar outras fábricas. Assim, uma" +
+				"interface define um padrão a ser gerado e a relação entre os objetos, mas " +
+				"sem especificar de forma explícita as classes usadas.";
 	}
 
 	@Override
