@@ -8,6 +8,7 @@ import es2.DPs.Composite.DPComposite;
 import es2.DPs.DesignPattern;
 import es2.DPs.Facade.DPFacade;
 import es2.DPs.Flyweight.DPFlyweight;
+import es2.DPs.Mediator.DPMediator;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -29,6 +30,7 @@ public class Controller {
         dpsList.add(new DPComposite());
         dpsList.add(new DPFacade());
         dpsList.add(new DPFlyweight());
+        dpsList.add(new DPMediator());
     }
 
     public void runCLI(){
