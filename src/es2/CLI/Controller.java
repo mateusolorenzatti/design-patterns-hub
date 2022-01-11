@@ -12,6 +12,7 @@ import es2.DPs.Mediator.DPMediator;
 import es2.DPs.Memento.DPMemento;
 import es2.DPs.Prototype.DPPrototype;
 import es2.DPs.Proxy.DPProxy;
+import es2.DPs.State.DPState;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -37,6 +38,7 @@ public class Controller {
         dpsList.add(new DPMemento());
         dpsList.add(new DPPrototype());
         dpsList.add(new DPProxy());
+        dpsList.add(new DPState());
     }
 
     public void runCLI(){
