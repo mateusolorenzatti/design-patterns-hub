@@ -10,6 +10,7 @@ import es2.DPs.Facade.DPFacade;
 import es2.DPs.Flyweight.DPFlyweight;
 import es2.DPs.Mediator.DPMediator;
 import es2.DPs.Memento.DPMemento;
+import es2.DPs.Prototype.DPPrototype;
 import es2.DPs.Proxy.DPProxy;
 
 import java.io.IOException;
@@ -34,6 +35,7 @@ public class Controller {
         dpsList.add(new DPFlyweight());
         dpsList.add(new DPMediator());
         dpsList.add(new DPMemento());
+        dpsList.add(new DPPrototype());
         dpsList.add(new DPProxy());
     }
 
