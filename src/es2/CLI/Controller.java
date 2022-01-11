@@ -13,6 +13,7 @@ import es2.DPs.Memento.DPMemento;
 import es2.DPs.Prototype.DPPrototype;
 import es2.DPs.Proxy.DPProxy;
 import es2.DPs.State.DPState;
+import es2.DPs.Visitor.DPVisitor;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -39,6 +40,7 @@ public class Controller {
         dpsList.add(new DPPrototype());
         dpsList.add(new DPProxy());
         dpsList.add(new DPState());
+        dpsList.add(new DPVisitor());
     }
 
     public void runCLI(){
