@@ -17,6 +17,11 @@ public class DPProxy implements DesignPattern {
     }
 
     @Override
+    public String getAuthor() {
+        return "Cristian da Rosa Nunes";
+    }
+
+    @Override
     public String getDescription() {
         return "O padrão Proxy permite que o acesso a algum objeto seja feito \n" +
                 " por intermédio de outra classe, possibilitando que outra \n" +

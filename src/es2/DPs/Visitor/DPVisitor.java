@@ -19,6 +19,11 @@ public class DPVisitor implements DesignPattern {
 	}
 
 	@Override
+	public String getAuthor() {
+		return "Vandoir Welchen";
+	}
+
+	@Override
 	public String getDescription() {
 		return "O padrão Visitor permite que uma interação com vários objetos parecidos \n" +
 				" seja feita de maneira mais prática ao mover a parte da lógica operacional \n" +

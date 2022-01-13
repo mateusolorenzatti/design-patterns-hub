@@ -20,6 +20,11 @@ public class DPComposite implements DesignPattern {
     }
 
     @Override
+    public String getAuthor() {
+        return "Douglas Guarnieri";
+    }
+
+    @Override
     public String getDescription() {
         return "O padrão Composite permite a criação de um formato onde \n" +
                 " é possível compor objetos em uma estrutura de árvore e \n" +

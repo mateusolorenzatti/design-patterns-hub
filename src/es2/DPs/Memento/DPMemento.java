@@ -17,6 +17,11 @@ public class DPMemento implements DesignPattern {
 	}
 
 	@Override
+	public String getAuthor() {
+		return "Guilherme Giordani";
+	}
+
+	@Override
 	public String getDescription() {
 		return "O padrão Memento estabelece um comportamento em que cada estado de um \n" +
 				" objeto seja salvo e armazenado em versões passadas. Assim, se torna mais \n" +

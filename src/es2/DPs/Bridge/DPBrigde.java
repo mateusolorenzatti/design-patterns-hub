@@ -20,6 +20,11 @@ public class DPBrigde implements DesignPattern {
     }
 
     @Override
+    public String getAuthor() {
+        return "Mateus Orlandin Lorenzatti";
+    }
+
+    @Override
     public String getDescription() {
         return "O padrão Bridge é útil para separarmos a parte da abstração da \n" +
                 " implementação. Assim, a abstração se encarrega de definir os atributos \n" +

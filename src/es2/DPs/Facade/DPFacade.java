@@ -16,6 +16,11 @@ public class DPFacade implements DesignPattern {
 	}
 
 	@Override
+	public String getAuthor() {
+		return "Marcos Vinicius Chiele Damin";
+	}
+
+	@Override
 	public String getDescription() {
 		return "O padrão Facade estabelece uma estrutura de utilização da aplicação \n" +
 				" ou bilbioteca de forma que todos os recursos e opções disponíveis \n" +

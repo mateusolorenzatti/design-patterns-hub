@@ -16,6 +16,11 @@ public class DPState implements DesignPattern {
     }
 
     @Override
+    public String getAuthor() {
+        return "Vanderbil Lima";
+    }
+
+    @Override
     public String getDescription() {
         return "O padrão State estabelece um tipo de comportamente onde o objeto muda de \n" +
                 " comportamento dependendo do seu estado atual. Pode ser implementado usando \n" +

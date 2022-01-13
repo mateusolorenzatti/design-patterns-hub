@@ -16,6 +16,11 @@ public class DPPrototype implements DesignPattern {
     }
 
     @Override
+    public String getAuthor() {
+        return "Mateus Orlandin Lorenzatti / Geeks for Geeks";
+    }
+
+    @Override
     public String getDescription() {
         return "O padrão Prototype auxilia na criação de objetos escondendo a complexidade \n" +
                 " de criar um objeto, entragando um clone no lugar. Assim, baseado nesse \n" +

@@ -18,6 +18,11 @@ public class DPAbstractFactory implements DesignPattern {
 	}
 
 	@Override
+	public String getAuthor() {
+		return "Leonardo Bortolini";
+	}
+
+	@Override
 	public String getDescription() {
 		return "A criação de objetos por meio de uma Fábrica (Factory) é uma boa prática \n" +
 				" para se criar objetos de forma dinâmica. Para isso, o padrão Abstract Factory \n" +

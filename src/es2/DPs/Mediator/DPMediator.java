@@ -19,6 +19,11 @@ public class DPMediator implements DesignPattern {
     }
 
     @Override
+    public String getAuthor() {
+        return "José de Bona";
+    }
+
+    @Override
     public String getDescription() {
         return "O padrão Mediator estabelece um comportamento entre os objetos \n" +
                 " onde há uma classe central a todos e essa classe coordena a \n" +

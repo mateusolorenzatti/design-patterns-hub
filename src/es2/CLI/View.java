@@ -41,6 +41,8 @@ public class View {
         this.showDividingLine();
         System.out.println(" >> Padrão: " + dp.getName());
         System.out.println(" >> Categoria: " + dp.getCategoria());
+        System.out.println(" >> Autor do Exemplo: " + dp.getAuthor());
+        System.out.print("\n");
         System.out.println(" >> Descrição: " + dp.getDescription());
         System.out.print("\n");
         System.out.println(" >> Início do Exemplo \n");
@@ -59,6 +61,11 @@ public class View {
         System.out.println("                    |_|");
         System.out.println("");
         System.out.println(" >> Autor: Mateus Orlandin Lorenzatti");
+        System.out.println(" -- ");
+        System.out.println(" >> Instituição/Curso: IFRS Campus Farroupilha / ADS");
+        System.out.println(" >> Disciplina: Engenharia de Software II (SEM 2021/2)");
+        System.out.println(" >> Professor: Cléber Macieski");
+        System.out.println(" -- ");
         System.out.println(" >> Source: github.com/mateusolorenzatti/design-patterns-hub");
     }
 

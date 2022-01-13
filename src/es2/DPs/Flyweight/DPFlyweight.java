@@ -16,6 +16,11 @@ public class DPFlyweight implements DesignPattern {
     }
 
     @Override
+    public String getAuthor() {
+        return "Arthur Bassotto Ziero";
+    }
+
+    @Override
     public String getDescription() {
         return "O padrão Flyweight é voltado para um uso mais eficaz e enxuto de memória, \n" +
                 " aplicando conceitos que reaproveitem o uso de volume de dados em tempo \n" +

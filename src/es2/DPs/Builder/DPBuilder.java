@@ -21,6 +21,11 @@ public class DPBuilder implements DesignPattern {
     }
 
     @Override
+    public String getAuthor() {
+        return "Jonathan da Silva Forlin";
+    }
+
+    @Override
     public String getDescription() {
         return "O padrão Builder serve para criar objetos complexos compostos \n" +
                 " por objetos simples, sendo criado em um passo a passo. Dessa forma \n" +

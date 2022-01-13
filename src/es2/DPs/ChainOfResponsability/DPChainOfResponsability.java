@@ -18,6 +18,11 @@ public class DPChainOfResponsability implements DesignPattern {
     }
 
     @Override
+    public String getAuthor() {
+        return "Tiago da Costa Farinon";
+    }
+
+    @Override
     public String getDescription() {
         return "O padrão Chain of Responsability estabelece um comportamento \n" +
 				" em que é montado uma cadeia de requisições sendo passadas de \n" +
